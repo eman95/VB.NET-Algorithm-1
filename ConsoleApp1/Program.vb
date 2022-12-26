@@ -1,5 +1,6 @@
 Module Program
     Sub Main(args As String())
+        Console.Title = "Algorithm Task 1"
         Dim taskList As New List(Of String)
 
         For i = 1 To 10
@@ -12,7 +13,7 @@ Module Program
 
         Do
             Console.Clear()
-
+            writeToConsole(New String() {"Algorithm Task 1"})
             writeToConsole(taskList.ToArray())
 
             Dim taskNumber As Integer
