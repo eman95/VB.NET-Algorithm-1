@@ -100,12 +100,12 @@ Module Program
     End Sub
 
     Sub task2()
-        writeToConsole(New String() {"Please enter you name:"})
+        writeToConsole(New String() {"Please enter your name:"})
         writeToConsole(New String() {"Hello world, " & Console.ReadLine()})
     End Sub
 
     Sub task3()
-        writeToConsole(New String() {"Please enter you name:"})
+        writeToConsole(New String() {"Please enter your name:"})
         Dim name = Console.ReadLine()
 
         If name.ToLower = "alice" Or name.ToLower = "bob" Then
