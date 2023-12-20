@@ -261,7 +261,7 @@ Module Program
             End If
         Next
 
-        writeToConsole(New String() {"The prime numbers from 0 to 1000 are ", Join(primeNumberList.ToArray(), ", ")})
+        writeToConsole(New String() {"The prime numbers from 0 to 10000 are ", Join(primeNumberList.ToArray(), ", ")})
     End Sub
 
     Sub task9()
